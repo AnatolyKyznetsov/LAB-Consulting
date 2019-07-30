@@ -1,0 +1,164 @@
+#page-preloader {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background: #ced7ef;
+	z-index: 100500;
+}
+
+.cssload-weird div {
+	background-color: transparent;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	box-shadow: 0px 10px rgb(184,28,49),
+		0px -10px rgb(184,28,49);
+		-o-box-shadow: 0px 10px rgb(184,28,49),
+		0px -10px rgb(184,28,49);
+		-ms-box-shadow: 0px 10px rgb(184,28,49),
+		0px -10px rgb(184,28,49);
+		-webkit-box-shadow: 0px 10px rgb(184,28,49),
+		0px -10px rgb(184,28,49);
+		-moz-box-shadow: 0px 10px rgb(184,28,49),
+		0px -10px rgb(184,28,49);
+	animation: cssload-rotate2 3.6s infinite linear;
+		-o-animation: cssload-rotate2 3.6s infinite linear;
+		-ms-animation: cssload-rotate2 3.6s infinite linear;
+		-webkit-animation: cssload-rotate2 3.6s infinite linear;
+		-moz-animation: cssload-rotate2 3.6s infinite linear;
+}
+.cssload-weird div:nth-child(2) {
+	box-shadow: 0px -19px rgb(184,28,49),
+		0px 19px rgb(184,28,49);
+		-o-box-shadow: 0px -19px rgb(184,28,49),
+		0px 19px rgb(184,28,49);
+		-ms-box-shadow: 0px -19px rgb(184,28,49),
+		0px 19px rgb(184,28,49);
+		-webkit-box-shadow: 0px -19px rgb(184,28,49),
+		0px 19px rgb(184,28,49);
+		-moz-box-shadow: 0px -19px rgb(184,28,49),
+		0px 19px rgb(184,28,49);
+	animation: cssload-rotate 3.375s	infinite linear;
+		-o-animation: cssload-rotate 3.375s	infinite linear;
+		-ms-animation: cssload-rotate 3.375s	infinite linear;
+		-webkit-animation: cssload-rotate 3.375s	infinite linear;
+		-moz-animation: cssload-rotate 3.375s	infinite linear;
+}
+.cssload-weird div:nth-child(3){
+	box-shadow: 0px 29px rgb(184,28,49),
+		0px -29px rgb(184,28,49);
+		-o-box-shadow: 0px 29px rgb(184,28,49),
+		0px -29px rgb(184,28,49);
+		-ms-box-shadow: 0px 29px rgb(184,28,49),
+		0px -29px rgb(184,28,49);
+		-webkit-box-shadow: 0px 29px rgb(184,28,49),
+		0px -29px rgb(184,28,49);
+		-moz-box-shadow: 0px 29px rgb(184,28,49),
+		0px -29px rgb(184,28,49);
+	animation: cssload-rotate2 3.15s	infinite linear;
+		-o-animation: cssload-rotate2 3.15s	infinite linear;
+		-ms-animation: cssload-rotate2 3.15s	infinite linear;
+		-webkit-animation: cssload-rotate2 3.15s	infinite linear;
+		-moz-animation: cssload-rotate2 3.15s	infinite linear;
+}
+.cssload-weird div:nth-child(4){
+	box-shadow: 0px -39px rgb(184,28,49),
+		0px 39px rgb(184,28,49);
+		-o-box-shadow: 0px -39px rgb(184,28,49),
+		0px 39px rgb(184,28,49);
+		-ms-box-shadow: 0px -39px rgb(184,28,49),
+		0px 39px rgb(184,28,49);
+		-webkit-box-shadow: 0px -39px rgb(184,28,49),
+		0px 39px rgb(184,28,49);
+		-moz-box-shadow: 0px -39px rgb(184,28,49),
+		0px 39px rgb(184,28,49);
+	animation: cssload-rotate 2.925s	infinite linear;
+		-o-animation: cssload-rotate 2.925s	infinite linear;
+		-ms-animation: cssload-rotate 2.925s	infinite linear;
+		-webkit-animation: cssload-rotate 2.925s	infinite linear;
+		-moz-animation: cssload-rotate 2.925s	infinite linear;
+}
+.cssload-weird div:nth-child(5){
+	box-shadow: 0px 49px rgb(184,28,49),
+		0px -49px rgb(184,28,49);
+		-o-box-shadow: 0px 49px rgb(184,28,49),
+		0px -49px rgb(184,28,49);
+		-ms-box-shadow: 0px 49px rgb(184,28,49),
+		0px -49px rgb(184,28,49);
+		-webkit-box-shadow: 0px 49px rgb(184,28,49),
+		0px -49px rgb(184,28,49);
+		-moz-box-shadow: 0px 49px rgb(184,28,49),
+		0px -49px rgb(184,28,49);
+	animation: cssload-rotate2 2.7s infinite linear;
+		-o-animation: cssload-rotate2 2.7s infinite linear;
+		-ms-animation: cssload-rotate2 2.7s infinite linear;
+		-webkit-animation: cssload-rotate2 2.7s infinite linear;
+		-moz-animation: cssload-rotate2 2.7s infinite linear;
+}
+
+
+
+@keyframes cssload-rotate {
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@-o-keyframes cssload-rotate {
+	100% {
+		-o-transform: rotate(360deg);
+	}
+}
+
+@-ms-keyframes cssload-rotate {
+	100% {
+		-ms-transform: rotate(360deg);
+	}
+}
+
+@-webkit-keyframes cssload-rotate {
+	100% {
+		-webkit-transform: rotate(360deg);
+	}
+}
+
+@-moz-keyframes cssload-rotate {
+	100% {
+		-moz-transform: rotate(360deg);
+	}
+}
+
+@keyframes cssload-rotate2 {
+	100% {
+		transform: rotate(-360deg);
+	}
+}
+
+@-o-keyframes cssload-rotate2 {
+	100% {
+		-o-transform: rotate(-360deg);
+	}
+}
+
+@-ms-keyframes cssload-rotate2 {
+	100% {
+		-ms-transform: rotate(-360deg);
+	}
+}
+
+@-webkit-keyframes cssload-rotate2 {
+	100% {
+		-webkit-transform: rotate(-360deg);
+	}
+}
+
+@-moz-keyframes cssload-rotate2 {
+	100% {
+		-moz-transform: rotate(-360deg);
+	}
+}
